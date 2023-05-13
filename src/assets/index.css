@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  padding: 4rem max(min(20rem, calc((100% - 1024px) / 2)), 1.25rem);
+  overflow-x: hidden;
+}
